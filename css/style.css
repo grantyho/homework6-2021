@@ -14,6 +14,10 @@ header {
     position: static;
 }
 
+.fixed-header {
+    position: static;
+}
+
 .nav_links {
     display: flex;
     flex-direction: column;
@@ -97,7 +101,6 @@ a:visited {
     .card {
         flex-basis: 250px;
     }
-  
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -112,18 +115,21 @@ a:visited {
     }
 
     nav {
-        width:100%;
+        width: 100%;
+    }
+
+    .print-thumbs > li {
+        list-style-type: "\1F44D";
     }
 
     .nav_links{ 
-        display:flex;
-        flex-direction:row;
+        display: flex;
+        flex-direction: row;
         justify-content: space-around;
     }
 
     .pricing {
-        display: flex;
-        align-items: flex-end;
+        flex-wrap: nowrap;
     }
 
     .card {
@@ -134,6 +140,5 @@ a:visited {
     .gallery, #gallery{
         display: none;
     }
-}
 
-  
+}
