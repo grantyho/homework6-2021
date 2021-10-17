@@ -13,7 +13,7 @@ header {
     align-items: center;
     background: #fff;
     border-bottom: 3px solid #50C7C7;
-    position: relative;
+    position: inherit;
 }
 
 .nav_links {
@@ -137,5 +137,3 @@ a:visited {
         display: none;
     }
 }
-
-  
