@@ -10,10 +10,9 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background: #fff;
-    align-content: center;
     border-bottom: 3px solid #50C7C7;
+    position: absolute;
 }
 
 .nav_links {
@@ -137,3 +136,5 @@ a:visited {
         display: none;
     }
 }
+
+  
