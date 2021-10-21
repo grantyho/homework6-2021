@@ -106,11 +106,6 @@ a:visited {
     .card {
         flex-basis: 250px;
     }
-
-    header {
-        align-items: baseline;
-    }
-
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
